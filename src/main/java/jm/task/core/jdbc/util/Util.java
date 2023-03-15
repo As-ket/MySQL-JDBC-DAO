@@ -11,7 +11,7 @@ public class Util {
     private final static String URL = "jdbc:mysql://localhost:3306/myTask";
 
 
-    public static Connection getConnection() {
+    public Connection getConnection() {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(URL, USER, PASSWORD);
