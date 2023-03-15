@@ -55,7 +55,7 @@ public class UserDaoJDBCImpl implements UserDao {
             preparedStatement.setLong(1, id);
             preparedStatement.executeUpdate();
         } catch (SQLException e) {
-            System.out.println("не удалось удалить User по указанному id");;
+            System.out.println("не удалось удалить User по указанному id");
         }
     }
 
